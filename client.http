@@ -7,4 +7,36 @@ GET {{baseUrl}}/health
 ###
 
 # Get rooms
+# @name getRooms
 GET {{baseUrl}}/rooms
+
+###
+
+# Create room
+# @name createRoom
+POST {{baseUrl}}/rooms
+Content-Type: application/json
+
+{
+  "name": "Room 1",
+  "description": "A description for Room 1"
+}
+###
+
+@roomId = {{createRoom.response.body.$.roomId}}
+
+###
+
+# Get room questions
+GET {{baseUrl}}/rooms/{{roomId}}/questions
+
+###
+
+# Create question
+# @name createQuestion
+POST {{baseUrl}}/rooms/{{roomId}}/questions
+Content-Type: application/json
+
+{
+  "question": "Oque é vermelho mas não brilha ?"
+}
