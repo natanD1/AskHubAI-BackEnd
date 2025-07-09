@@ -1,4 +1,4 @@
-# 💬 Let Me Ask Back-End
+# 💬 AskHubAI Back-End
 
 Projeto desenvolvido durante o evento **NLW Agents** da **Rocketseat**, implementando uma API REST com Node.js e TypeScript.
 
@@ -113,4 +113,3 @@ O projeto utiliza **Biome** para formatação e linting do código, configurado 
 
 ---
 
-Desenvolvido durante o **NLW Agents** da [Rocketseat](https://rocketseat.com.br) 🚀
