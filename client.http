@@ -18,7 +18,7 @@ POST {{baseUrl}}/rooms
 Content-Type: application/json
 
 {
-  "name": "Room 1",
+  "name": "Natan",
   "description": "A description for Room 1"
 }
 ###

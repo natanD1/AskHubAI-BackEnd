@@ -15,6 +15,13 @@
       "when": 1752082946874,
       "tag": "0001_numerous_scourge",
       "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "7",
+      "when": 1752199787814,
+      "tag": "0002_aspiring_thena",
+      "breakpoints": true
     }
   ]
 }
