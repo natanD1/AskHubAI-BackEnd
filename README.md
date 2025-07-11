@@ -373,34 +373,10 @@ docker build -t askhubai-backend .
 docker run -p 3333:3333 --env-file .env askhubai-backend
 ```
 
-## 🤝 Contribuindo
+## 👨‍💻 Autor
 
-1. **Fork** o projeto
-2. Crie uma **branch** para sua feature (`git checkout -b feature/AmazingFeature`)
-3. **Commit** suas mudanças (`git commit -m 'Add some AmazingFeature'`)
-4. **Push** para a branch (`git push origin feature/AmazingFeature`)
-5. Abra um **Pull Request**
+**Natan Dourado** - [@natanD1](https://github.com/natanD1)
 
-## 📄 Licença
-
-Este projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
-
-## 🆘 Suporte
-
-Se você encontrar algum problema ou tiver dúvidas:
-
-- 📧 **Email**: seu-email@exemplo.com
-- 💬 **Discord**: Rocketseat Community
-- 📚 **Documentação**: [GitHub Wiki](link-para-wiki)
+Desenvolvido com ❤️ durante o evento da **Rocketseat**
 
 ---
-
-<div align="center">
-  <p>Desenvolvido com 💜 durante o NLW Agents</p>
-  <p>
-    <a href="https://rocketseat.com.br">
-      <img src="https://img.shields.io/badge/Rocketseat-%237159c1?style=flat&logo=ghost" alt="Rocketseat">
-    </a>
-  </p>
-</div>
-
